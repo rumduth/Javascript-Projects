@@ -50,3 +50,29 @@
 ### Timers:
 
 - Implements a session timeout feature that logs out the user after a period of inactivity for security purposes.
+
+## 5. Bankist Website
+
+- **Progress:** Done
+- **Difficulty:** 4/5
+
+## Key Functions of the Website
+
+1. Modal Window:
+
+   - Displays important messages or forms in a modal dialog when triggered by buttons (`btnsOpenModal`) or overlay clicks (`overlay`).
+
+2. Smooth Scrolling:
+
+   - Enables smooth navigation between sections of the page when clicking on links (`btnScrollTo`, `.nav__links`).
+
+3. Tabbed Components:
+
+   - Organizes content into tabs (`operations__tab`) that switch displayed content (`operations__content`) when clicked.
+
+4. Sticky Navigation:
+
+   - Navigation bar (`nav`) becomes sticky (`sticky`) when scrolled past a certain point, enhancing usability.
+
+5. Slider Component:
+   - Features a slider (`slider`) allowing navigation through slides (`slides`) with controls (`leftBtn`, `rightBtn`, `dotsContainer`).
