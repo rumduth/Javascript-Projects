@@ -76,3 +76,34 @@
 
 5. Slider Component:
    - Features a slider (`slider`) allowing navigation through slides (`slides`) with controls (`leftBtn`, `rightBtn`, `dotsContainer`).
+
+## 5. Workout Tracker App
+
+- **Progress:** Done
+- **Difficulty:** 4/5
+
+## Key Functions of the App
+
+1. **Geolocation Integration:**
+
+   - Uses the user's current geolocation to load a map centered on their position (`navigator.geolocation.getCurrentPosition`).
+
+2. **Workout Logging:**
+
+   - Allows users to log different types of workouts (running and cycling) by entering details like distance, duration, cadence, and elevation through a form (`form.addEventListener("submit", this._newWorkout.bind(this))`).
+
+3. **Workout Visualization:**
+
+   - Displays each logged workout on the map as a marker and lists detailed information below the map (`this._renderWorkoutList`, `this._renderWorkoutMarker`).
+
+4. **Dynamic Form Handling:**
+
+   - Adjusts the form dynamically based on the selected workout type, toggling fields relevant to running (cadence) and cycling (elevation) (`inputType.addEventListener("change", this._toggleElevationField)`).
+
+5. **Persistent Data Storage:**
+
+   - Saves workouts to local storage to ensure data persists across sessions and can be reset if needed (`this._setLocalStorage`, `this._getLocalStorage`, `localStorage.removeItem("workouts")`).
+
+6. **Interactive UI:**
+
+   - Allows users to interact with the map and workout list, clicking on workouts to move the map view to the corresponding location and see workout details (`containerWorkouts.addEventListener("click", this._moveToWorkoutPos.bind(this))`).
