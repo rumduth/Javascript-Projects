@@ -1,19 +1,19 @@
-#1. Guess My Number
+# 1. Guess My Number
    Progress: Done
    Difficulty: 1/5
    Description: The purpose of this code is to create an interactive number guessing game where the user tries to guess a randomly generated secret number between 1 and 20. The user has a limited number of guesses, and the game provides feedback on each guess. If the user guesses correctly, they win and their score is recorded as a high score. If they run out of guesses, they lose. The game can be reset to start a new round.
    
-#2. Modal Window
+# 2. Modal Window
    Progress: Done
    Diffciculty: 1/5
    The purpose of this code is to create an interactive modal window that can be opened and closed using buttons on the webpage, as well as by clicking outside the modal or pressing the Escape key.
 
-#3. Pig Game
+# 3. Pig Game
    Progress: Done
    Difficulty: 2/5
    This game involves rolling a dice, accumulating points per turn, deciding when to hold accumulated points to avoid risking losing them, and being the first to reach a predefined score (100 in this case) to win. It's a turn-based game where players alternate turns until one of them wins.
 
-#4. Bankist
+# 4. Bankist
    Progress: Done
    Difficulty: 4/5
 
@@ -46,7 +46,7 @@
 
 - Implements a session timeout feature that logs out the user after a period of inactivity for security purposes.
 
-#5. Bankist Website
+# 5. Bankist Website
 
    Progress: Done
    Difficulty: 4/5
@@ -67,7 +67,7 @@
 + Slider Component:
  - Features a slider (`slider`) allowing navigation through slides (`slides`) with controls (`leftBtn`, `rightBtn`, `dotsContainer`).
 
-#6. Workout Tracker App
+# 6. Workout Tracker App
    Progress: Done
    Difficulty: 4/5
 
