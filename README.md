@@ -90,3 +90,23 @@ Key Functions of the App
 
 + Interactive UI:**
 - Allows users to interact with the map and workout list, clicking on workouts to move the map view to the corresponding location and see workout details (`containerWorkouts.addEventListener("click", this._moveToWorkoutPos.bind(this))`).
+
+
+# 7. Forkify App
+   Progress: Done
+   Difficulty: 5/5
+
+Forkify is your ultimate recipe companion, offering a streamlined experience to explore, save, and share delicious recipes. Discover a wide range of dishes, adjust servings with ease, and bookmark your favorites for later. Whether searching for new inspirations or sharing your own culinary creations, Forkify provides intuitive navigation, real-time updates, and secure storage, making meal planning and recipe management effortless and enjoyable.
+
++ Search Recipes: Easily find recipes by entering keywords. The app fetches and displays results from an external API, allowing users to explore a wide variety of dishes.
+
++ Pagination: Navigate through search results seamlessly with built-in pagination controls. Users can move forward or backward through pages to explore more recipes.
+
++ View Recipe Details: Get comprehensive details of each recipe selected from search results. From ingredients to cooking instructions, users can view everything they need to know in one place.
+
++ Update Servings: Adjust recipe servings effortlessly. Users can scale recipes up or down to accommodate different serving sizes, with the app dynamically recalculating ingredient quantities.
+
++ Bookmark Recipes: Save favorite recipes for later. Users can bookmark recipes they love, storing them conveniently within the app for quick access and future cooking sessions.
+
++ Add New Recipes: Share your own culinary creations. Easily upload new recipes to the app, allowing others to discover and enjoy your unique dishes. Each submission is stored securely and made available for others to explore.
+
